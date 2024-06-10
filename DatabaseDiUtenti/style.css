@@ -1,0 +1,113 @@
+body {
+  background: linear-gradient(135deg, #e09, #d0e);
+  color: #333;
+  font-family: "Arial", sans-serif;
+  transition: background 0.5s, color 0.5s;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+.navbar-brand {
+  font-size: 1.75rem;
+  color: #0d6efd;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.navbar-brand:hover {
+  color: #0056b3;
+}
+.navbar-toggler {
+  border: none;
+  transition: transform 0.3s;
+}
+.navbar-toggler:hover {
+  transform: rotate(90deg);
+}
+.form-control,
+.form-select {
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 123, 255, 0.25);
+  border-color: #80bdff;
+}
+.table-container {
+  margin-top: 50px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.5s;
+}
+.table-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.table {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table th,
+.table td {
+  vertical-align: middle;
+}
+.table thead th {
+  background-color: #0d6efd;
+  color: #fff;
+  border-bottom: 2px solid #0056b3;
+}
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+.dark-mode {
+  background: linear-gradient(135deg, #1e1e1e, #3a3a3a);
+  color: #f8f9fa;
+}
+.dark-mode .form-control,
+.dark-mode .form-select {
+  background-color: #3a3a3a;
+  color: #f8f9fa;
+  border: 1px solid #5a5a5a;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+.dark-mode .form-control::placeholder {
+  color: #f8f9fa;
+}
+.dark-mode .form-control:focus,
+.dark-mode .form-select:focus {
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 123, 255, 0.25);
+  border-color: #80bdff;
+}
+.dark-mode .table-container {
+  background-color: #2a2a2a;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+}
+.dark-mode .table thead th {
+  background-color: #5a5a5a;
+  border-bottom: 2px solid #7a7a7a;
+}
+.dark-mode .table tbody tr:hover {
+  background-color: #4a4a4a;
+}
+.dark-mode .btn-outline-dark {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.dark-mode .btn-outline-dark:hover {
+  background-color: #f8f9fa;
+  color: #333;
+}
+.dark-mode .btn-outline-light {
+  color: #333;
+  border-color: #333;
+}
+.dark-mode .btn-outline-light:hover {
+  background-color: #333;
+  color: #f8f9fa;
+}
